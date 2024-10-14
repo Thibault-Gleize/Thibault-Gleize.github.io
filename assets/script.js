@@ -68,7 +68,7 @@ function NextDot(){
 	let img = document.querySelector(".banner-img")
 	let text = document.querySelector("#banner p")
 	let NewText = `
-	<p>${slides[n].tagLine}</p>
+	${slides[n].tagLine}
 	`;
 	img.src = "./assets/images/slideshow/"+ slides[n].image
 	text.innerHTML = NewText
